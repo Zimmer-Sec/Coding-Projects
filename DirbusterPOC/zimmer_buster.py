@@ -29,7 +29,7 @@ with open(wordlist_location, 'r') as wl: # <- create list from the given wordlis
 
 print("Zimmer-Sec Proof of Concept Directory Brute Forcing Python Script -- I don't expect anyone to actually run or read this\n\n\n\n\n")
 target_protocol = str(input("HTTPS or HTTP? \n\n>>> ").lower())
-target_address = str(input("\n\nEnter your target's domain name or IP addr.\n\n>>>>"))
+target_address = str(input("\n\nEnter your target's domain name or IP addr.\n\n>>>> "))
 # target_port = str(input("Does your target use a non-standard port? Hit Enter for no: \n>>> ")) <- the : at the end of target_url was monkeying it up if there's wasn't non-standard port... removed due to unlikelyness of https:// or http:// not directing to it.
 
 print("\n\nPlease select which file types you'd like to search for. Type 'continue' to finish.\n\n")
@@ -48,7 +48,7 @@ while True:
 
 
 target_url = target_protocol + "://" + target_address + "/"
-start_choice = input(f"{target_url} with file types: {str(chosen_extensions)} \n FIRE or QUIT ?:\n>>> ")
+start_choice = input(f"\n\n{target_url} with file types: {str(chosen_extensions)} \n FIRE or QUIT ?:\n\n>>> ")
 while True:
     if start_choice.lower() == "fire":
         winners = brute(target_url, words, chosen_extensions)
