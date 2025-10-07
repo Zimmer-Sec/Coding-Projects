@@ -1,4 +1,8 @@
-[Source Code](https://github.com/Zimmer-Sec/Coding-Projects/blob/main/DirbusterPOC/zimmer_buster.py)
+###### I know this project isn't perfect--there are highly efficient programs (like gobuster) to do the real work. 
+### This project demonstrates the core principles of generating and iterating through lists, and working with dictionaries, libraries, and web requests to enumerate hidden resources on a remote server. Thank you for checking this out.   
+# [Source Code](https://github.com/Zimmer-Sec/Coding-Projects/blob/main/DirbusterPOC/zimmer_buster.py)   
+
+
 # Wordlist:  
 <img width="303" height="445" alt="image" src="https://github.com/user-attachments/assets/2a4b0145-8633-4d04-8c36-a52a57682823" />      
    
