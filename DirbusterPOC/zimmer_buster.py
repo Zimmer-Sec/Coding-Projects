@@ -3,7 +3,7 @@
 import urllib.request
 
 wordlist_location = 'C:\\Users\\kzimm\\Desktop\\wordlist.txt' # Change to whatever file you want. This list was filled with filenames from my HackTheBox CTF github folder (mixed with random words and capitalization).
-file_extensions = {"DIRECTORIES": "/", "MARKDOWN": ".md", "PHP": ".php", "HTML": ".html", "EXE": ".exe", "TXT": ".txt", "Word": "docx", "Libre Office": ".odx", "Excel": ".xlsx", "PDF": ".pdf"}
+file_extensions = {"DIRECTORIES": "/", "MARKDOWN": ".md", "PHP": ".php", "HTML": ".html", "EXE": ".exe", "TXT": ".txt", "Word": "docx", "Libre Office": ".odt", "Excel": ".xlsx", "PDF": ".pdf"}
 chosen_extensions = []
 
 
@@ -17,8 +17,10 @@ def brute(url, wordlist, extensions):
                     if response.getcode() == 200:
                         print("WINNER! >>> " + tgt)
                         winners.append(str(tgt))
-            except Exception as e:
-                print(f"{tgt} FAILED: {str(e)}")
+                    else:
+                        print(f"FAILED: {tgt}")
+            except Exception as e: # catch errors like connection refused/DNS
+                print(f"Error: {str(e)}")
     return winners
 
 
@@ -27,7 +29,7 @@ with open(wordlist_location, 'r') as wl: # <- create list from the given wordlis
 
 print("Zimmer-Sec Proof of Concept Directory Brute Forcing Python Script -- I don't expect anyone to actually run or read this\n\n\n\n\n")
 target_protocol = str(input("HTTPS or HTTP? \n\n>>> ").lower())
-target_address = str(input("\n\nEnter your target's domain name or IP addr.\n\n>>>> "))
+target_address = str(input("\n\nEnter your target's domain name or IP addr.\n\n>>>>"))
 # target_port = str(input("Does your target use a non-standard port? Hit Enter for no: \n>>> ")) <- the : at the end of target_url was monkeying it up if there's wasn't non-standard port... removed due to unlikelyness of https:// or http:// not directing to it.
 
 print("\n\nPlease select which file types you'd like to search for. Type 'continue' to finish.\n\n")
@@ -50,7 +52,7 @@ start_choice = input(f"{target_url} with file types: {str(chosen_extensions)} \n
 while True:
     if start_choice.lower() == "fire":
         winners = brute(target_url, words, chosen_extensions)
-        print("\n\n\n The following URLs exist:\n======================================")
+        print("\n\n\n The following locations exist:\n======================================")
         for i in range(len(winners)):
             print(winners[i])
         break
