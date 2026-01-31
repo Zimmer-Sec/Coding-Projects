@@ -14,3 +14,10 @@ Understanding that LLMs (like ChatGPT) aren't able to just magically doing every
 - Needing to get a proof of concept done.
 - Data sets 1, 2, and 3 are all scanned images. Data set 4 has the first true text-based PDF files that can be analyzed.
 - Plan: Download/load, extract text page by page, normalize text, format and save as json.
+- [x] Create directory structure for data, configuration, source scripts, requirements, testing and main python components
+- [x] Label requirements in root directory
+- [x] Label data, database, logging, extraction tool, and other settings under config
+- [ ] Outline and create sqlite3 database to store json metadata.
+- [ ] Create method for downloading and registering pdf docs from internet
+- [ ] Create ways for user to use PyMuPDF, pdfplumber, PdfReader as methods to extract/normalize page metadata to database
+- [ ] Use main.py to showcase a proof of concept against a single pdf document
