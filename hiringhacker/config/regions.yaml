@@ -1,0 +1,128 @@
+defaults:
+  per_query_site_limit: 8
+
+regions:
+  US:
+    aliases: ["usa", "united states", "us", "u.s.", "america"]
+    sites:
+      - linkedin.com/jobs
+      - indeed.com
+      - ziprecruiter.com
+      - glassdoor.com
+      - monster.com
+      - careerbuilder.com
+      - dice.com
+      - handshake.com
+      - flexjobs.com
+      - usajobs.gov
+
+  UK_EUROPE:
+    aliases: ["uk", "united kingdom", "europe", "eu", "england", "germany", "france", "spain", "italy", "netherlands"]
+    sites:
+      - linkedin.com/jobs
+      - reed.co.uk
+      - totaljobs.com
+      - cv-library.co.uk
+      - jobs.theguardian.com
+      - stepstone.de
+      - eures.europa.eu
+      - jobsite.co.uk
+      - xing.com/jobs
+      - welcometothejungle.com
+
+  APAC:
+    aliases: ["apac", "asia pacific", "india", "singapore", "australia", "new zealand", "japan", "south korea", "philippines", "malaysia", "indonesia"]
+    sites:
+      - linkedin.com/jobs
+      - seek.com.au
+      - naukri.com
+      - jobsdb.com
+      - jobstreet.com
+      - foundit.in
+      - mycareersfuture.gov.sg
+      - timesjobs.com
+      - careerone.com.au
+      - wantedly.com
+
+  LATAM:
+    aliases: ["latam", "latin america", "mexico", "brazil", "argentina", "chile", "colombia", "peru"]
+    sites:
+      - linkedin.com/jobs
+      - indeed.com.mx
+      - bumeran.com
+      - computrabajo.com
+      - occ.com.mx
+      - getonbrd.com
+      - zonajobs.com.ar
+      - trabalhabrasil.com.br
+      - elempleo.com
+      - catho.com.br
+
+  MEA:
+    aliases: ["mea", "middle east", "africa", "uae", "saudi arabia", "egypt", "nigeria", "south africa", "kenya", "qatar"]
+    sites:
+      - linkedin.com/jobs
+      - bayt.com
+      - naukrigulf.com
+      - gulftalent.com
+      - wuzzuf.net
+      - careerjunction.co.za
+      - jobberman.com
+      - brightermonday.co.ke
+      - indeed.ae
+      - akhtaboot.com
+
+  GLOBAL:
+    aliases: ["global", "worldwide", "all", "international"]
+    sites:
+      - linkedin.com/jobs
+      - indeed.com
+      - glassdoor.com
+      - monster.com
+      - ziprecruiter.com
+      - jooble.org
+      - simplyhired.com
+      - careerjet.com
+      - weworkremotely.com
+      - jobs.lever.co
+
+country_to_region:
+  united states: US
+  canada: US
+  mexico: LATAM
+  brazil: LATAM
+  argentina: LATAM
+  colombia: LATAM
+  peru: LATAM
+  chile: LATAM
+  united kingdom: UK_EUROPE
+  germany: UK_EUROPE
+  france: UK_EUROPE
+  spain: UK_EUROPE
+  italy: UK_EUROPE
+  netherlands: UK_EUROPE
+  portugal: UK_EUROPE
+  sweden: UK_EUROPE
+  norway: UK_EUROPE
+  poland: UK_EUROPE
+  india: APAC
+  singapore: APAC
+  australia: APAC
+  new zealand: APAC
+  japan: APAC
+  south korea: APAC
+  indonesia: APAC
+  malaysia: APAC
+  philippines: APAC
+  thailand: APAC
+  uae: MEA
+  united arab emirates: MEA
+  saudi arabia: MEA
+  qatar: MEA
+  kuwait: MEA
+  bahrain: MEA
+  oman: MEA
+  egypt: MEA
+  nigeria: MEA
+  kenya: MEA
+  south africa: MEA

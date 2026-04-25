@@ -1,0 +1,8 @@
+{
+  "queries": [
+    "intext:\"Microsoft\" (site:linkedin.com/jobs OR site:indeed.com OR site:ziprecruiter.com OR site:glassdoor.com OR site:monster.com OR site:careerbuilder.com OR site:dice.com OR site:handshake.com) (job OR jobs OR career OR careers OR hiring)",
+    "intext:\"Microsoft\" (site:flexjobs.com OR site:usajobs.gov) (job OR jobs OR career OR careers OR hiring)"
+  ],
+  "result_count": 0,
+  "results": []
+}

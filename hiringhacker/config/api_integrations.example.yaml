@@ -1,0 +1,18 @@
+providers:
+  linkedin_enterprise:
+    enabled: false
+    base_url: "https://api.linkedin.com"
+    auth_type: "oauth2"
+    notes: "Placeholder for premium LinkedIn jobs integrations"
+
+  indeed_partner:
+    enabled: false
+    base_url: "https://apis.indeed.com"
+    auth_type: "api_key"
+    notes: "Placeholder for partner API and paid job feed access"
+
+  custom_board_connector:
+    enabled: false
+    base_url: "https://example-jobboard-api.local"
+    auth_type: "custom"
+    notes: "Community contributors can add custom adapters"

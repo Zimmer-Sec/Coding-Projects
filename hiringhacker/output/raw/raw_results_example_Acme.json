@@ -1,0 +1,12 @@
+{
+  "queries": [
+    "intext:\"Acme Corp\" (site:linkedin.com/jobs OR site:reed.co.uk OR site:totaljobs.com OR site:cv-library.co.uk OR site:jobs.theguardian.com OR site:stepstone.de OR site:eures.europa.eu OR site:jobsite.co.uk) (job OR jobs OR career OR careers OR hiring)",
+    "intext:\"Acme Corp\" (site:xing.com/jobs OR site:welcometothejungle.com) (job OR jobs OR career OR careers OR hiring)",
+    "intext:\"Acme Inc\" (site:linkedin.com/jobs OR site:reed.co.uk OR site:totaljobs.com OR site:cv-library.co.uk OR site:jobs.theguardian.com OR site:stepstone.de OR site:eures.europa.eu OR site:jobsite.co.uk) (job OR jobs OR career OR careers OR hiring)",
+    "intext:\"Acme Inc\" (site:xing.com/jobs OR site:welcometothejungle.com) (job OR jobs OR career OR careers OR hiring)",
+    "intext:\"Acme\" (site:linkedin.com/jobs OR site:reed.co.uk OR site:totaljobs.com OR site:cv-library.co.uk OR site:jobs.theguardian.com OR site:stepstone.de OR site:eures.europa.eu OR site:jobsite.co.uk) (job OR jobs OR career OR careers OR hiring)",
+    "intext:\"Acme\" (site:xing.com/jobs OR site:welcometothejungle.com) (job OR jobs OR career OR careers OR hiring)"
+  ],
+  "result_count": 0,
+  "results": []
+}

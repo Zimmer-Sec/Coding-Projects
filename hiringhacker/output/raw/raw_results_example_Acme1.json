@@ -1,0 +1,8 @@
+{
+  "queries": [
+    "intext:\"Acme Corp\" (site:linkedin.com/jobs OR site:indeed.com.mx OR site:bumeran.com OR site:computrabajo.com OR site:occ.com.mx OR site:getonbrd.com OR site:zonajobs.com.ar OR site:trabalhabrasil.com.br) (job OR jobs OR career OR careers OR hiring)",
+    "intext:\"Acme Corp\" (site:elempleo.com OR site:catho.com.br) (job OR jobs OR career OR careers OR hiring)"
+  ],
+  "result_count": 0,
+  "results": []
+}
