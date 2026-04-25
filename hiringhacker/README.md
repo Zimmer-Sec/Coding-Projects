@@ -1,4 +1,4 @@
-### Hiring Dork Tool
+### Hiring Hacker
 
 Python-based Google dorking utility for **job-posting reconnaissance** during footprinting and OSINT workflows.
 
