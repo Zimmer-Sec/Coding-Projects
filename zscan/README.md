@@ -2,7 +2,7 @@
 ### My personal interactive Python CLI tool for running Nmap reconnaissance and enumeration scans with built-in IDS/IPS evasion advice.
 ### Combines: 
 
-- guided target/scan selection,
+- target/scan selection,
 - evasion technique stacking,
 - automatic multi-format result export, and
 - persistent technique-success tracking for post-lab analysis.
@@ -18,7 +18,7 @@ Summary dashboard for most-used successful techniques
 
 Prerequisites
 - Python 3.x
-- Nmap installed and available in PATH
+- Nmap installed and available in $PATH
 - (Optional) colorama for improved terminal colors
 
 Verify prerequisites
@@ -26,8 +26,8 @@ Verify prerequisites
 - `nmap --version`
 
 Installation
-- `git clone (https://github.com/Zimmer-Sec/Z-Scanner)`
-- `cd Z-Scanner`
+- `git clone https://github.com/Zimmer-Sec/Coding-Projects/tree/main/zscan`
+- `cd zscan`
 - `python3 -m venv .venv`
 - `source .venv/bin/activate`
 - `pip install colorama`
