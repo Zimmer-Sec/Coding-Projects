@@ -24,7 +24,7 @@ Simply put, our Sun is constantly emitting solar winds of electromagnetic radiat
 
 ## A History Lesson: The Carrington Effect:
 
-During the late Summer of 1859, people as far south as the Caribbean Sea watched the night sky light up with the Aurora Borealis. At that time, they didn’t understand the connection between geomagnetic activity, solar storms, and the Aurora phenomenon. Telegraph systems, compasses, and magnetic activity readers were acting strange and some reportedly saw electrical surge damage (Briggs, 2023). A few days later, an astronomer by the name of Richard Carrington witnessed large bursts of bright light from dark spots on the Sun. After around seventeen hours, all of North America was lit up like it was daytime. This bright flash was a massive Coronal Mass Ejection that led to a severe solar storm and what we now call the Carrington Effect.
+During the late Summer of 1859, people as far south as the Caribbean Sea watched the night sky light up with the Aurora Borealis. At that time, they didn’t understand the connection between geomagnetic activity, solar storms, and the Aurora phenomenon. Telegraph systems, compasses, and magnetic activity readers were acting strange and some reportedly saw electrical surge damage. A few days later, an astronomer by the name of Richard Carrington witnessed large bursts of bright light from dark spots on the Sun. After around seventeen hours, all of North America was lit up like it was daytime. This bright flash was a massive Coronal Mass Ejection that led to a severe solar storm and what we now call the Carrington Effect.
 
 ----------------------------------------
 
@@ -51,6 +51,6 @@ While the United States may be able to detect CMEs using coronagraphy imagery, i
 
 ## CME Tabletop Exercise
 
-Developed through flipped interaction techniques (shout-out Dr. Jules White), please copy/paste the [prompt](broken) into your favorite LLM. It was built in-line with guidance published by NOAA's Space Weather Prediction Center, FEMA Ready.gov, and NERC, and is modeled loosely on professional emergency management tabletop methodology. It will ask you a few questions about your actual life, then put you through a realistic scenario tailored to your household, location, and current preparedness level. At the end, you'll get a structured after-action report and a gap analysis showing specifically what you'd be missing.
+Developed through flipped interaction techniques (shout-out Dr. Jules White), please copy/paste the [prompt](https://github.com/Zimmer-Sec/Coding-Projects/blob/main/CME-AI-Tabletop/CME-Prompt.txt) into your favorite LLM. It was built in-line with guidance published by NOAA's Space Weather Prediction Center, FEMA Ready.gov, and NERC, and is modeled loosely on professional emergency management tabletop methodology. It will ask you a few questions about your actual life, then put you through a realistic scenario tailored to your household, location, and current preparedness level. At the end, you'll get a structured after-action report and a gap analysis showing specifically what you'd be missing.
 
 It may take up to 30 minutes to complete, but it might actually save your life.
