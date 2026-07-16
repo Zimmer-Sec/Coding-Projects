@@ -7,7 +7,7 @@ Our planet orbits a Jedi Training Remote and we have little-to-no ability to cou
 
 The goal of this article is to present an abstracted explanation of the Sun's credible threat to modern infrastructure, and more importantly, what you can do about it. 
 
-In some recent studies, I came across research showing the impact AI-facilitated tabletop exercises have on organizations training employees to handle cybersecurity incidents. I thought what better way to put readers into a simulated environment that tests their real-world decision-making when their family is on the line? Even if you skim the sections that follow, please take the time to try the tabletop exercise at the end and consider how this kind of simulation could apply to other areas of your life.   
+In some recent studies, I came across research showing the impact AI-facilitated tabletop exercises have on organizations training employees to handle cybersecurity incidents. I thought what better way to put readers into a simulated environment that tests their real-world decision-making when their family is on the line? Even if you skim the sections that follow, please take the time to try the tabletop exercise at the end and consider how this kind of simulation could apply to other areas of your life. Please also check out my [list of essential items](https://github.com/Zimmer-Sec/Coding-Projects/blob/main/CME-AI-Tabletop/Basic-Needs.md) to have on hand.  
 
 ----------------------------------------
    
