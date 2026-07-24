@@ -34,7 +34,26 @@ After deciding on Windows Server 2025 Standard Edition Desktop Experience, I con
 
 <img width="1049" height="866" alt="image" src="https://github.com/user-attachments/assets/e184c541-a5f3-431a-abb7-e526f595db8c" />
 
+----------------------------------------------------
 
+Follow the Windows Server Manager welcome steps (1-5).
+
+<img width="1064" height="350" alt="image" src="https://github.com/user-attachments/assets/087d25e8-153d-4d23-bebd-4736d76ee1d6" />
+
+- Click on the properties to change, keeping the device workgrouped until we get the domain setup.
+- Feel free to enable RDP firewall rules under the "Remote" section of the Computer Name editor. When you get users configured in the domain later, you can come back to this and specify a user-based acccess list for RDP.
+- Configure a static IPv4 address if you'd like. I will be assigning a static address because I have a virtual pfSense router separating some subnets that I'd like to route to this domain controller for AD pentesting.
+
+
+----------------------------------------------------
+
+If you're looking for a network setup, this is the AI slop I based my build around: https://www.stlspencer.com/posts/HomeLab-Installing-pfSense
+
+Some tools to be familiar with:
+- Modify your drivers using "Device Manager" app
+- Editing services as needed wtih the "Services" app
+	- If AD is already setup, you can specify service accounts/managed service accounts for increased security.
+- Modify registry setting values with "regedit" app
 
 
 
